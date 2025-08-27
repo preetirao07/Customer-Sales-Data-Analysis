@@ -22,15 +22,14 @@ Data Security: Role-based access control
 
 # Project Structure
 Customer-Sales-Analysis/
-│
-├── sql/                # SQL scripts for schema and queries
-├── airflow_dags/       # Airflow DAGs for ETL pipelines
-├── notebooks/          # Python notebooks for analysis
-├── backups/            # Backup and restore scripts
-└── README.md           # Project documentation
+  - sql/                # SQL scripts for schema and queries
+  - airflow_dags/       # Airflow DAGs for ETL pipelines
+  - notebooks/          # Python notebooks for analysis
+  - backups/            # Backup and restore scripts
+  - README.md           # Project documentation
 
 # Getting Started
-**Prerequisites:**
+  **Prerequisites:**
 - PostgreSQL installed and configured
 - Apache Airflow for scheduling ETL jobs
 - Python (3.x) with required libraries
@@ -40,8 +39,3 @@ Customer-Sales-Analysis/
 - Analyze revenue trends by region, category, or time
 - Monitor top-performing products and customer segments
 
-
-
-Role-based access control in PostgreSQL
-
-Encrypted backups and secure restore strategies
